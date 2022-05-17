@@ -41,7 +41,7 @@ for f in fl:
     else:
         continue
 
-a = int(input("Please check your file. If everything is okay, press 1 to delete the duplicated files. If you don't want to delete, press 2..."))
+a = int(input("Please check your file. If everything is okay, press 1 to delete the duplicated images. If you don't want to delete, press 2..."))
 
 if a == 1:
     for f in os.listdir(path):
