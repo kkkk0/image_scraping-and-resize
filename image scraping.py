@@ -17,7 +17,7 @@ print(NUM)
 KEYWORD = str(input("What do you want to search?"))
 print(KEYWORD)
 
-FORMAT = str(input("What is the image format do you want to download? Please type in jpg for now."))
+FORMAT = str(input("What is the image format do you want to download? Please type jpg for now."))
 
 driver = webdriver.Chrome(r'C:\Users\HP\Desktop\Google Driver\chromedriver.exe')
 driver.get("https://www.google.com/imghp?hl=eng")
