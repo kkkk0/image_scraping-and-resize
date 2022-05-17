@@ -3,7 +3,7 @@ Using Google browser to do image scraping and resize the image.
 
 ## **For webscrapping.py:**
 
-Please make sure all the library are installed, such as selenium, urllib. If it is not installed, please use the below command to installed. 
+Please make sure all the libraries are installed, such as selenium, urllib. If it is not installed, please use the below commands to install it before running the code. 
 
 **pip install selenium** 
 
