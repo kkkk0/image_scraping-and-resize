@@ -13,7 +13,7 @@ VER = int(input('Input the vertical pixel value for the new image:'))
 
 input("Recheck your path. Press Enter to proceed with image resizing process...")
 
-FILENAME = str(input('Input the abbreviation for your new file:'))
+FILENAME = str(input('Input the abbreviation for your new images:'))
 
 fl=[]
 for a in os.listdir(path):
