@@ -12,12 +12,12 @@ print('Current directory:\t' + os.getcwd())
 
 FILENAME = str(input('Input the abbreviation for your new images:'))
 
-NUM = int(input("how many images do you want to download? "))
+NUM = int(input("How many images do you want to download?"))
 print(NUM)
-KEYWORD = str(input("what do you want to search?"))
+KEYWORD = str(input("What do you want to search?"))
 print(KEYWORD)
 
-FORMAT = str(input("what is the image format do you want to download?"))
+FORMAT = str(input("What is the image format do you want to download? Please type in jpg for now."))
 
 driver = webdriver.Chrome(r'C:\Users\HP\Desktop\Google Driver\chromedriver.exe')
 driver.get("https://www.google.com/imghp?hl=eng")
